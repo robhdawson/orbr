@@ -66,7 +66,7 @@ const makeOrb = imgSrc => {
           const gif = new GIF({
             workers: 10,
             quality: 60,
-            workerScript: "/gif.worker.js",
+            workerScript: "/orbr/gif.worker.js",
             debug: false
           });
 
